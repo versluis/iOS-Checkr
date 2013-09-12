@@ -9,8 +9,8 @@
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="XJ0-qN-PuJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="xiZ-BN-F78"/>
+                        <viewControllerLayoutGuide type="top" id="lEh-hd-qqr"/>
+                        <viewControllerLayoutGuide type="bottom" id="ssH-bc-yj2"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>

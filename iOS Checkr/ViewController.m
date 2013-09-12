@@ -29,17 +29,19 @@
 
 - (NSString *)checkVersion {
     
-    float version = [[[UIDevice currentDevice] systemVersion] floatValue];
+    NSArray *versionArray = [[[UIDevice currentDevice] systemVersion] componentsSeparatedByString:@"."];
     
-    if (version >= 6.01) {
-        // iOS-6.01+ code
+    if ([[versionArray objectAtIndex:0] intValue] >= 7) {
+        
+        // do this if we're runnign iOS 7 or higher
+        return @"iOS 7 or higher";
+        
     } else {
-        // prior iOS versions
+        
+        // do this if we're running iOS 6 or below
+        return @"iOS 6 or lower";
     }
     
-    // turn into printable string
-    NSString *theVersion = [[NSString alloc]initWithFormat:@"%f", version];
-    return theVersion;
 }
 
 @end
