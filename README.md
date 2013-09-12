@@ -1,9 +1,11 @@
 iOS-Checkr
 ==========
 
-Checks your current iOS Version and lets your code react accordingly. This is useful if you need iOS 7 to do something that iOS 6 can't go.
+Checks your current iOS Version and lets your code react accordingly. 
+This is useful if you need iOS 7 to do something that iOS 6 can't go.
 
 This is a full project based on this code:
+
 http://stackoverflow.com/questions/12561599/how-to-check-ios-version-is-ios-6
 
 Note: 
