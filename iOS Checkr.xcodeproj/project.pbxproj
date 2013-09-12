@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D278149C17E283AC002E73A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D278149B17E283AC002E73A4 /* Foundation.framework */; };
+		D278149E17E283AC002E73A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D278149D17E283AC002E73A4 /* CoreGraphics.framework */; };
+		D27814A017E283AC002E73A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D278149F17E283AC002E73A4 /* UIKit.framework */; };
+		D27814A617E283AC002E73A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D27814A417E283AC002E73A4 /* InfoPlist.strings */; };
+		D27814A817E283AC002E73A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D27814A717E283AC002E73A4 /* main.m */; };
+		D27814AC17E283AC002E73A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D27814AB17E283AC002E73A4 /* AppDelegate.m */; };
+		D27814AF17E283AC002E73A4 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27814AD17E283AC002E73A4 /* Main_iPhone.storyboard */; };
+		D27814B217E283AC002E73A4 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27814B017E283AC002E73A4 /* Main_iPad.storyboard */; };
+		D27814B517E283AC002E73A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D27814B417E283AC002E73A4 /* ViewController.m */; };
+		D27814B717E283AC002E73A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27814B617E283AC002E73A4 /* Images.xcassets */; };
+		D27814BE17E283AC002E73A4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27814BD17E283AC002E73A4 /* XCTest.framework */; };
+		D27814BF17E283AC002E73A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D278149B17E283AC002E73A4 /* Foundation.framework */; };
+		D27814C017E283AC002E73A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D278149F17E283AC002E73A4 /* UIKit.framework */; };
+		D27814C817E283AC002E73A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D27814C617E283AC002E73A4 /* InfoPlist.strings */; };
+		D27814CA17E283AC002E73A4 /* iOS_CheckrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D27814C917E283AC002E73A4 /* iOS_CheckrTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D27814C117E283AC002E73A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D278149017E283AC002E73A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D278149717E283AC002E73A4;
+			remoteInfo = "iOS Checkr";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D278149817E283AC002E73A4 /* iOS Checkr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Checkr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D278149B17E283AC002E73A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D278149D17E283AC002E73A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D278149F17E283AC002E73A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D27814A317E283AC002E73A4 /* iOS Checkr-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS Checkr-Info.plist"; sourceTree = "<group>"; };
+		D27814A517E283AC002E73A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D27814A717E283AC002E73A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D27814A917E283AC002E73A4 /* iOS Checkr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Checkr-Prefix.pch"; sourceTree = "<group>"; };
+		D27814AA17E283AC002E73A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D27814AB17E283AC002E73A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D27814AE17E283AC002E73A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D27814B117E283AC002E73A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D27814B317E283AC002E73A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D27814B417E283AC002E73A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D27814B617E283AC002E73A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D27814BC17E283AC002E73A4 /* iOS CheckrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS CheckrTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27814BD17E283AC002E73A4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D27814C517E283AC002E73A4 /* iOS CheckrTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS CheckrTests-Info.plist"; sourceTree = "<group>"; };
+		D27814C717E283AC002E73A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D27814C917E283AC002E73A4 /* iOS_CheckrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_CheckrTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D278149517E283AC002E73A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D278149E17E283AC002E73A4 /* CoreGraphics.framework in Frameworks */,
+				D27814A017E283AC002E73A4 /* UIKit.framework in Frameworks */,
+				D278149C17E283AC002E73A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27814B917E283AC002E73A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27814BE17E283AC002E73A4 /* XCTest.framework in Frameworks */,
+				D27814C017E283AC002E73A4 /* UIKit.framework in Frameworks */,
+				D27814BF17E283AC002E73A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D278148F17E283AC002E73A4 = {
+			isa = PBXGroup;
+			children = (
+				D27814A117E283AC002E73A4 /* iOS Checkr */,
+				D27814C317E283AC002E73A4 /* iOS CheckrTests */,
+				D278149A17E283AC002E73A4 /* Frameworks */,
+				D278149917E283AC002E73A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D278149917E283AC002E73A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D278149817E283AC002E73A4 /* iOS Checkr.app */,
+				D27814BC17E283AC002E73A4 /* iOS CheckrTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D278149A17E283AC002E73A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D278149B17E283AC002E73A4 /* Foundation.framework */,
+				D278149D17E283AC002E73A4 /* CoreGraphics.framework */,
+				D278149F17E283AC002E73A4 /* UIKit.framework */,
+				D27814BD17E283AC002E73A4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D27814A117E283AC002E73A4 /* iOS Checkr */ = {
+			isa = PBXGroup;
+			children = (
+				D27814AA17E283AC002E73A4 /* AppDelegate.h */,
+				D27814AB17E283AC002E73A4 /* AppDelegate.m */,
+				D27814AD17E283AC002E73A4 /* Main_iPhone.storyboard */,
+				D27814B017E283AC002E73A4 /* Main_iPad.storyboard */,
+				D27814B317E283AC002E73A4 /* ViewController.h */,
+				D27814B417E283AC002E73A4 /* ViewController.m */,
+				D27814B617E283AC002E73A4 /* Images.xcassets */,
+				D27814A217E283AC002E73A4 /* Supporting Files */,
+			);
+			path = "iOS Checkr";
+			sourceTree = "<group>";
+		};
+		D27814A217E283AC002E73A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D27814A317E283AC002E73A4 /* iOS Checkr-Info.plist */,
+				D27814A417E283AC002E73A4 /* InfoPlist.strings */,
+				D27814A717E283AC002E73A4 /* main.m */,
+				D27814A917E283AC002E73A4 /* iOS Checkr-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D27814C317E283AC002E73A4 /* iOS CheckrTests */ = {
+			isa = PBXGroup;
+			children = (
+				D27814C917E283AC002E73A4 /* iOS_CheckrTests.m */,
+				D27814C417E283AC002E73A4 /* Supporting Files */,
+			);
+			path = "iOS CheckrTests";
+			sourceTree = "<group>";
+		};
+		D27814C417E283AC002E73A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D27814C517E283AC002E73A4 /* iOS CheckrTests-Info.plist */,
+				D27814C617E283AC002E73A4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D278149717E283AC002E73A4 /* iOS Checkr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27814CD17E283AC002E73A4 /* Build configuration list for PBXNativeTarget "iOS Checkr" */;
+			buildPhases = (
+				D278149417E283AC002E73A4 /* Sources */,
+				D278149517E283AC002E73A4 /* Frameworks */,
+				D278149617E283AC002E73A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Checkr";
+			productName = "iOS Checkr";
+			productReference = D278149817E283AC002E73A4 /* iOS Checkr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D27814BB17E283AC002E73A4 /* iOS CheckrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27814D017E283AC002E73A4 /* Build configuration list for PBXNativeTarget "iOS CheckrTests" */;
+			buildPhases = (
+				D27814B817E283AC002E73A4 /* Sources */,
+				D27814B917E283AC002E73A4 /* Frameworks */,
+				D27814BA17E283AC002E73A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D27814C217E283AC002E73A4 /* PBXTargetDependency */,
+			);
+			name = "iOS CheckrTests";
+			productName = "iOS CheckrTests";
+			productReference = D27814BC17E283AC002E73A4 /* iOS CheckrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D278149017E283AC002E73A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pinkstone Pictures LLC";
+				TargetAttributes = {
+					D27814BB17E283AC002E73A4 = {
+						TestTargetID = D278149717E283AC002E73A4;
+					};
+				};
+			};
+			buildConfigurationList = D278149317E283AC002E73A4 /* Build configuration list for PBXProject "iOS Checkr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D278148F17E283AC002E73A4;
+			productRefGroup = D278149917E283AC002E73A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D278149717E283AC002E73A4 /* iOS Checkr */,
+				D27814BB17E283AC002E73A4 /* iOS CheckrTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D278149617E283AC002E73A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27814B217E283AC002E73A4 /* Main_iPad.storyboard in Resources */,
+				D27814B717E283AC002E73A4 /* Images.xcassets in Resources */,
+				D27814AF17E283AC002E73A4 /* Main_iPhone.storyboard in Resources */,
+				D27814A617E283AC002E73A4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27814BA17E283AC002E73A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27814C817E283AC002E73A4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D278149417E283AC002E73A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27814B517E283AC002E73A4 /* ViewController.m in Sources */,
+				D27814AC17E283AC002E73A4 /* AppDelegate.m in Sources */,
+				D27814A817E283AC002E73A4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27814B817E283AC002E73A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27814CA17E283AC002E73A4 /* iOS_CheckrTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D27814C217E283AC002E73A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D278149717E283AC002E73A4 /* iOS Checkr */;
+			targetProxy = D27814C117E283AC002E73A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D27814A417E283AC002E73A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D27814A517E283AC002E73A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D27814AD17E283AC002E73A4 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D27814AE17E283AC002E73A4 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D27814B017E283AC002E73A4 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D27814B117E283AC002E73A4 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D27814C617E283AC002E73A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D27814C717E283AC002E73A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D27814CB17E283AC002E73A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D27814CC17E283AC002E73A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D27814CE17E283AC002E73A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Checkr/iOS Checkr-Prefix.pch";
+				INFOPLIST_FILE = "iOS Checkr/iOS Checkr-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D27814CF17E283AC002E73A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Checkr/iOS Checkr-Prefix.pch";
+				INFOPLIST_FILE = "iOS Checkr/iOS Checkr-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D27814D117E283AC002E73A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS Checkr.app/iOS Checkr";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Checkr/iOS Checkr-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS CheckrTests/iOS CheckrTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D27814D217E283AC002E73A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS Checkr.app/iOS Checkr";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Checkr/iOS Checkr-Prefix.pch";
+				INFOPLIST_FILE = "iOS CheckrTests/iOS CheckrTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D278149317E283AC002E73A4 /* Build configuration list for PBXProject "iOS Checkr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27814CB17E283AC002E73A4 /* Debug */,
+				D27814CC17E283AC002E73A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27814CD17E283AC002E73A4 /* Build configuration list for PBXNativeTarget "iOS Checkr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27814CE17E283AC002E73A4 /* Debug */,
+				D27814CF17E283AC002E73A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D27814D017E283AC002E73A4 /* Build configuration list for PBXNativeTarget "iOS CheckrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27814D117E283AC002E73A4 /* Debug */,
+				D27814D217E283AC002E73A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D278149017E283AC002E73A4 /* Project object */;
+}
